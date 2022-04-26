@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');*/
+@import url('https://rsms.me/inter/inter.css');
 * {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --bg-color: #F7F6FD;
+}
+body {
+  background-color: var(--bg-color);
 }
 

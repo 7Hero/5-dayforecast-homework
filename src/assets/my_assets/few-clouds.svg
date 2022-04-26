@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) ammap.com | SVG weather icons -->
+<svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="64"
+        height="64"
+        viewBox="0 0 64 64">
+    <defs>
+        <linearGradient xmlns="http://www.w3.org/2000/svg" id="a" x1="22.53" x2="25.47" y1="42.95" y2="48.05" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4286ee"/><stop offset=".45" stop-color="#4286ee"/><stop offset="1" stop-color="#0950bc"/></linearGradient>
+        <linearGradient id="c" x1="29.53" x2="32.47" y1="42.95" y2="48.05" xlink:href="#a" />
+        <linearGradient xmlns="http://www.w3.org/2000/svg" id="d" x1="36.53" x2="39.47" y1="42.95" y2="48.05" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a"/>
+        <radialGradient id="paint0_radial_34_1167" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5 -5) rotate(30) scale(13)"><stop stop-color="#FFD336"/><stop offset="1" stop-color="#FF9900"/></radialGradient>
+        <linearGradient id="paint0_linear_34_1272" x1="32" y1="19.5826" x2="32" y2="43.5763" gradientUnits="userSpaceOnUse"><stop stop-color="#57A0EE"/><stop offset="1" stop-color="#5766EE"/></linearGradient>
+        <linearGradient id="paint0_linear_35_1433" x1="10.1318" y1="0" x2="10.1318" y2="14.3" gradientUnits="userSpaceOnUse"><stop stop-color="#C6DEFF"/><stop offset="1" stop-color="#97BEF2"/></linearGradient>
+        <linearGradient xmlns="http://www.w3.org/2000/svg" id="b" x1="26.74" x2="35.76" y1="37.88" y2="53.52" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f7b23b"/><stop offset=".45" stop-color="#f7b23b"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+        <style type="text/css">
+            @keyframes cloud-1 {
+            0% {
+            transform: translate(5px,5px);
+            }
+            50% {
+            transform: translate(10px,5px);
+            }
+            100% {
+            transform: translate(5px,5px);
+            }
+            }
+            .cloud-1 {
+            animation: cloud-1 7s ease-in-out infinite;
+            }
+            @keyframes cloud-2 {
+            0% {
+            transform: translate(-20px,-11px);
+            }
+            50% {
+            transform: translate(-22px,-11px);
+            }
+            100% {
+            transform: translate(-20px,-11px);
+            }
+            }
+            .cloud-2 {
+            animation: cloud-2 3s ease-in-out infinite;
+            }
+            @keyframes thunder {
+            0% {
+            transform: translate(0,0);
+            }
+            50% {
+            transform: translate(-2px,0);
+            }
+            100% {
+            transform: translate(0,0);
+            }
+            }
+
+            .thunder {
+            animation: thunder 3s ease-in-out infinite
+            }
+            @keyframes rotate {
+            from {
+            transform: rotate(360deg);
+            }
+            to {
+            transform: rotate(0);
+            }
+            }
+            .sun {
+            animation: rotate 8s ease-in-out infinite;
+            }
+        </style>
+
+    </defs>
+    <g id="rainy-6">
+        <g transform="translate(18,25)">
+            <g class="sun am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out">
+                <g>
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(45)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(90)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(135)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(180)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(225)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(270)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+                <g transform="rotate(315)">
+                    <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
+                </g>
+            </g>
+            <circle cx="0" cy="0" fill="url(#paint0_radial_34_1167)" r="8"/>
+        </g>
+        <g transform="translate(20,10)">
+            <g>
+                <path class="cloud-2" d="M49 34.5383C49 29.5889 45.019 25.7155 40.1772 25.7155C39.1013 25.7155 38.1329 25.9307 37.1646 26.2535C36.8418 22.5952 33.8291 19.5826 30.0633 19.5826C26.0823 19.5826 22.8544 22.8104 22.8544 26.7914C22.8544 27.6522 23.0696 28.513 23.2848 29.2661C22.962 29.1585 22.5316 29.1585 22.2089 29.1585C18.2278 29.1585 15 32.3864 15 36.3674C15 40.2408 18.1203 43.4687 21.9937 43.5763H40.5C45.2342 43.0383 49 39.2725 49 34.5383Z" fill="url(#paint0_linear_34_1272)" transform="translate(-20,-11)" />
+            </g>
+        </g>
+    </g>
+</svg>

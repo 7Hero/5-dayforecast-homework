@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        width="64"
+        height="64"
+        viewBox="0 0 64 64">
+    <defs>
+        <filter id="blur" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+            <feOffset dx="0" dy="4" result="offsetblur"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.05"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <style type="text/css">
+            @keyframes cloud-1 {
+                0% {
+                    transform: translate(5px,5px);
+                }
+                50% {
+                    transform: translate(10px,5px);
+                }
+                100% {
+                    transform: translate(5px,5px);
+                }
+            }
+            .cloud-1 {
+                animation: cloud-1 7s ease-in-out infinite;
+            }
+            @keyframes cloud-2 {
+                0% {
+                    transform: translate(-20px,-11px);
+                }
+                50% {
+                    transform: translate(-22px,-11px);
+                }
+                100% {
+                    transform: translate(-20px,-11px);
+                }
+            }
+            .cloud-2 {
+                animation: cloud-2 3s ease-in-out infinite;
+            }
+        </style>
+
+    </defs>
+    <g filter="url(#blur)" id="rainy-6">
+        <g transform="translate(20,10)">
+            <g>
+                <path class="cloud-1" d="M20.2637 8.91345C20.2637 5.96368 17.891 3.65516 15.0054 3.65516C14.3641 3.65516 13.787 3.78341 13.2099 3.97579C13.0175 1.79552 11.222 0 8.97758 0C6.60493 0 4.68117 1.92377 4.68117 4.29641C4.68117 4.80942 4.80942 5.32242 4.93767 5.7713C4.74529 5.70717 4.48879 5.70717 4.29641 5.70717C1.92377 5.70717 0 7.63094 0 10.0036C0 12.3121 1.85964 14.2359 4.16816 14.3H15.1978C18.0193 13.9794 20.2637 11.735 20.2637 8.91345Z" fill="url(#paint0_linear_35_1433)" transform="translate(10,5)"/>
+                <path class="cloud-2" d="M49 34.5383C49 29.5889 45.019 25.7155 40.1772 25.7155C39.1013 25.7155 38.1329 25.9307 37.1646 26.2535C36.8418 22.5952 33.8291 19.5826 30.0633 19.5826C26.0823 19.5826 22.8544 22.8104 22.8544 26.7914C22.8544 27.6522 23.0696 28.513 23.2848 29.2661C22.962 29.1585 22.5316 29.1585 22.2089 29.1585C18.2278 29.1585 15 32.3864 15 36.3674C15 40.2408 18.1203 43.4687 21.9937 43.5763H40.5C45.2342 43.0383 49 39.2725 49 34.5383Z" fill="url(#paint0_linear_34_1272)" transform="translate(-20,-11)" />
+                <defs>
+                    <linearGradient id="paint0_linear_34_1272" x1="32" y1="19.5826" x2="32" y2="43.5763" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#57A0EE"/>
+                        <stop offset="1" stop-color="#5766EE"/>
+                    </linearGradient>
+                    <linearGradient id="paint0_linear_35_1433" x1="10.1318" y1="0" x2="10.1318" y2="14.3" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#C6DEFF"/>
+                        <stop offset="1" stop-color="#97BEF2"/>
+                    </linearGradient>
+                </defs>
+            </g>
+        </g>
+    </g>
+</svg>

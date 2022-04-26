@@ -1,0 +1,127 @@
+.weather-icon {
+    /*transform-origin: top left;*/
+    transform: translateY(-50%) scale(3);
+}
+.weather-card {
+    position: relative;
+    transition: all;
+    transition-duration: 150ms;
+    border-radius: 46px;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    /*padding: 0 42px 20px 42px;*/
+    /*background-color: white;*/
+    width: 266px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(103, 80, 243, 0.05), 0 14px 30px rgba(88, 66, 225, 0.15);
+    /*box-sizing: border-box;*/
+}
+.weather-card.first {
+    margin-right:20px;
+    animation: appear 300ms ease-out;
+}
+.weather-card::before {
+    position:absolute;
+    content:"";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.5s linear;
+    border-radius: 46px;
+    background-image: linear-gradient(30.03deg, #6151C4 6.01%, #6750F3 95.94%);
+    z-index: -1;
+    opacity: 0;
+}
+
+
+.text-md {
+    font-size: 24px;
+    font-weight: bold;
+    color: #241484;
+}
+.text-sm {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8477D1;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.text-lg {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    background: linear-gradient(180deg, #6750F3 0%, #4530CB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-base {
+    font-size: 20px;
+    font-weight: 700;
+    color: #241484;
+}
+.divider {
+    display:flex;
+    /*height: 100%;*/
+    flex-direction: column;
+    align-items: center;
+    row-gap: 38px;
+}
+
+.first {
+    box-shadow: 0 0 0 20px rgba(103, 81, 242, 0.14);
+}
+
+.first * {
+    color:white;
+}
+
+.first .text-lg {
+    background: linear-gradient(180deg, #FFFFFF 0%, #D7D0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.first::before {
+    opacity: 1;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
+.title {
+    font-size: 36px;
+    font-weight: 500;
+}
+.bold  {
+    font-weight: bold;
+}
+.weather-card:hover {
+    box-shadow: 0 0 0px 20px rgba(103, 81, 242, 0.14);
+}
+.weather-card:hover * {
+    color:white;
+}
+.weather-card:hover::before {
+    opacity: 1;
+}
+.weather-card:hover .text-lg {
+    background: linear-gradient(180deg, #FFFFFF 0%, #D7D0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
