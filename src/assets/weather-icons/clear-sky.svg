@@ -7,20 +7,17 @@
         height="64"
         viewBox="0 0 64 64">
         <style>
-            @keyframes am-weather-sun {
-            0% {
-            -webkit-transform: rotate(0deg);
-            -moz-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-            transform: rotate(0deg);
-            }
+            @keyframes sun {
+                0% {
+                    transform: rotate(0deg);
+                }
 
-            100% {
-            -webkit-transform: rotate(360deg);
-            -moz-transform: rotate(360deg);
-            -ms-transform: rotate(360deg);
-            transform: rotate(360deg);
+                100% {
+                    transform: rotate(360deg);
+                }
             }
+            .rotate {
+                animation: sun 6s linear infinite;
             }
 
             .am-weather-sun {
@@ -85,7 +82,7 @@
         <radialGradient id="paint0_radial_34_1167" cx="0" cy="0" r="1" gradientTransform="translate(5 -5) rotate(30) scale(13)"><stop stop-color="#FFD336"/><stop offset="1" stop-color="#FF9900"/></radialGradient>
     </defs>
         <g class='trs' transform="translate(32,32) scale(1.2)">
-            <g class="am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out">
+            <g class="rotate am-weather-sun-shiny am-weather-easing-ease-in-out">
                 <g>
                     <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,10.5)" x1="0" x2="0" y1="0" y2="2" />
                 </g>

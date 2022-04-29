@@ -1,6 +1,6 @@
-import { DateTime } from "luxon";
-import { IDailyWeather } from "../interfaces/global";
-import * as WeatherIcons from "../assets/index.js";
+import {DateTime} from "luxon";
+import {IDailyWeather} from "../interfaces/global";
+import * as WeatherIcons from "../assets";
 
 export function getTimestamp(date: number) {
     return DateTime.fromSeconds(date).toFormat("LLLL dd',' t")
