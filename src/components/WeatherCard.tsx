@@ -1,4 +1,4 @@
-import "./WeatherCard.css"
+import "./WeatherCard.scss"
 
 const WeatherCard = ({condition, day, temp, timestamp,Icon, first}: any) => {
     const styles = first ? "weather-card first" : "weather-card"
