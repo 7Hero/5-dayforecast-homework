@@ -39,4 +39,42 @@ const DailyWeather = {
     "uvi": 4.8
 }
 
+const location = {
+  "id": 2643743,
+  "name": "London",
+  "coord": {
+    "lat": 51.5085,
+      "lon": -0.1257
+  },
+  "main": {
+  "temp": 283.49,
+    "feels_like": 282.09,
+    "temp_min": 282.01,
+    "temp_max": 284.53,
+    "pressure": 1031,
+    "humidity": 58
+  },
+  "dt": 1651255798,
+  "wind": {
+    "speed": 3.6,
+    "deg": 40
+  },
+  "sys": {
+  "country": "GB"
+  },
+    "rain": null,
+  "snow": null,
+  "clouds": {
+    "all": 100
+},
+    "weather": [
+    {
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04d"
+    }
+]
+}
+export type ILocation = typeof location;
 export type IDailyWeather = typeof DailyWeather;

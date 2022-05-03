@@ -7,8 +7,9 @@ import RainIcon from './weather-icons/rain.svg';
 import ThunderstormIcon from './weather-icons/thunderstorm.svg';
 import SnowIcon from './weather-icons/snow.svg';
 import MistIcon from './weather-icons/mist.svg';
+
 import SearchIcon from './icons/search.svg';
+import LoadingIcon from './icons/loading.svg';
 
 export { ClearSkyIcon, FewCloudsIcon, BrokenCloudsIcon, ThunderstormIcon, RainIcon, ScatteredCloudsIcon, ShowerRainIcon, SnowIcon, MistIcon};
-
-export { SearchIcon };
+export { SearchIcon, LoadingIcon };
